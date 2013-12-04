@@ -135,13 +135,14 @@ a.product-image {
   font-size: 18px;
   margin-bottom: 15px;
 }
+.sidebar .block {margin-bottom:10px}
 
 .sidebar .block-layered-nav .block-title {
   padding: 10px;
 }
 
 .sidebar .block .block-title {
-  background-color: #555555;
+  background-color: #CCCCCC;
   color: #FFFFFF;
   padding: 10px;
 }
@@ -980,4 +981,46 @@ footer {
     float: none;
     clear: both;
   }
+
+
 }
+.product-options dt label {font-size:14px}
+
+/* STYLES FOR LACES */
+body {	color: #1E444C; }
+.well {
+    	background-image: linear-gradient(to bottom, #F1ECEC 0%, #F1ECEC 100%);
+	background-color:#F1ECEC}
+
+.jumbotron, .breadcrumb, .navbar-default, .panel-footer, .sidebar .block .block-title {
+	background-color:#F1ECEC}
+a { 	color: #1C869D}
+
+.navbar {
+    	background: linear-gradient(#000000, #000000) repeat scroll 0 0 #333333;
+	color:#CCC;
+}
+.navbar a,.header-panel .links li a, .top-cart .block-title strong  {color: #FFF}
+.navbar-inverse {
+	background: linear-gradient(#2D484E, #243134) repeat scroll 0 0 #333333;
+        color:#FFF !important}
+
+.btn-default, .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger {
+}
+.btn-primary {
+ 	background-image: linear-gradient(to bottom, #000, #000 100%);
+    	border-color: #000
+}
+
+.btn-success {
+    background-image: linear-gradient(to bottom, #0E5D6D 0%, #0E5B6B 100%);
+    border-color: #419641;
+}
+.btn-danger {
+    background-image: linear-gradient(to bottom, #C91C3A 0%, #C91C3A 100%);
+}
+.panel-default > .panel-heading,.opc .section .step-title h2  {
+    background-image: linear-gradient(to bottom, #F1ECEC 0%, #F1ECEC 100%);
+    background-color: #F1ECEC;
+}
+.availability.in-stock {color:#1E444C}
